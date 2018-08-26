@@ -1,0 +1,17 @@
+{
+  "name": "terrain-to-obj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify index.js -o bundle.js"
+  },
+  "keywords": [],
+  "author": "Roman Zoller",
+  "license": "MIT",
+  "dependencies": {
+    "file-saver": "^1.3.8",
+    "@rz0/static-map": "0.1.0",
+    "watchify": "^3.11.0"
+  }
+}
